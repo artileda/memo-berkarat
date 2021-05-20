@@ -10,7 +10,7 @@ Rust juga mengenal pengambil tipe berdasarkan nilai, jadi tidak perlu menulis la
 `let <Nama Variable> = <Nilai>;`
 
 ```rust
-let nama : String = "Ell";
+let nama : String = "Pita";
 let umur = 21;
 ```
 
@@ -18,7 +18,7 @@ maka bila diprint:
 
 ```rust
 fn main(){
-    let nama : String = "Ell";
+    let nama : String = "Pita";
     let umur = 21;
     println!("Nama: {}",nama);
     println!("Umur: {}",umur);
@@ -27,7 +27,7 @@ fn main(){
 Hasil:
 
 ```
-Nama: Ell
+Nama: Pita
 Umur: 21
 ```
 
@@ -43,9 +43,9 @@ Berikut contohnya:
 
 ```rust
 fn main(){
-    let mut nama = "Ell"; // ini akan otomatis bertipe String setelah konversi dari tiipe str
+    let mut nama = "Pita"; // ini akan otomatis bertipe String setelah konversi dari tiipe str
     let umur = 21;
-    nama = "Elisabeth";
+    nama = "Puspita";
     println!("Nama: {}",nama);
     println!("Umur: {}",umur);
 }
@@ -65,7 +65,7 @@ Perbedaan dengan _mut_ variable, meskipun kita merubah nilai pada mut variable h
 Contoh Mutable
 ```rust
 fn main(){
-    let nama = "Elisabeth";
+    let nama = "Puspita";
     println!("Nama: {}", nama);
     nama = 33;
 }
@@ -90,7 +90,7 @@ For more information about this error, try `rustc --explain E0308`.
 Contoh Shadowing
 ```rust
 fn main(){
-    let nama = "Elisabeth";
+    let nama = "Puspita";
     println!("Nama: {}", nama);
     let nama = 33;
     println!("Nama: {}", nama);
@@ -100,7 +100,7 @@ fn main(){
 Hasil
 
 ```
-Nama: Elisabeth
+Nama: Puspita
 Nama: 33
 ```
 

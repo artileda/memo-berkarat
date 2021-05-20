@@ -1,10 +1,10 @@
 fn main(){
-    let nama = "Elisabeth";
+    let nama = "Fransiska";
     let mut umur = 21; // variable mutable
     
     println!("Nama: {}", nama); 
 
-    let nama = &[&nama,"Kartini"].join(" "); // variable shadowing dan pengabungan string 
+    let nama = &[&nama,"Puspita"].join(" "); // variable shadowing dan pengabungan string 
     println!("Nama Lengkap: {}",&nama);
     println!("Umur: {}",umur);
 

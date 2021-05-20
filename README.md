@@ -11,6 +11,7 @@ Ada berapa bagian yang saya ambil dan replikasi pada tulisan saya dihalaman [@pa
 
 - [▶️ 01 Pengenalan Rust](./01-pengenalan-rust.md)
 - [▶️ 02 Variable dan Mutabilitas](./02-variable-dan-mutabilitas.md)
+- [▶️ 03 Kepemilikan dan Pointer](./03-kepemilikan-dan-pointer.md) 
 
 ## 🛂 Lisensi
 [BSD-2 License](./LICENSE)
